@@ -1,0 +1,201 @@
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51904:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.HashMapCycleTest.entrySet
+
+# Run progress: 0.00% complete, ETA 00:00:42
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: 1948.064 ns/op
+# Warmup Iteration   2: 1981.535 ns/op
+Iteration   1: 1649.294 ns/op
+Iteration   2: 1498.627 ns/op
+Iteration   3: 1236.499 ns/op
+Iteration   4: 1208.369 ns/op
+Iteration   5: 1277.818 ns/op
+
+
+Result "org.example.HashMapCycleTest.entrySet":
+  1374.121 ±(99.9%) 737.952 ns/op [Average]
+  (min, avg, max) = (1208.369, 1374.121, 1649.294), stdev = 191.644
+  CI (99.9%): [636.169, 2112.073] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51904:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.HashMapCycleTest.forEachEntrySet
+
+# Run progress: 16.67% complete, ETA 00:00:40
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: 1492.660 ns/op
+# Warmup Iteration   2: 1393.194 ns/op
+Iteration   1: 1657.576 ns/op
+Iteration   2: 1415.712 ns/op
+Iteration   3: 1242.119 ns/op
+Iteration   4: 1248.423 ns/op
+Iteration   5: 1249.233 ns/op
+
+
+Result "org.example.HashMapCycleTest.forEachEntrySet":
+  1362.612 ±(99.9%) 694.815 ns/op [Average]
+  (min, avg, max) = (1242.119, 1362.612, 1657.576), stdev = 180.441
+  CI (99.9%): [667.798, 2057.427] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51904:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.HashMapCycleTest.forEachKeySet
+
+# Run progress: 33.33% complete, ETA 00:00:31
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: 1534.573 ns/op
+# Warmup Iteration   2: 1610.543 ns/op
+Iteration   1: 1491.694 ns/op
+Iteration   2: 1558.848 ns/op
+Iteration   3: 1627.368 ns/op
+Iteration   4: 1589.113 ns/op
+Iteration   5: 2278.191 ns/op
+
+
+Result "org.example.HashMapCycleTest.forEachKeySet":
+  1709.043 ±(99.9%) 1239.978 ns/op [Average]
+  (min, avg, max) = (1491.694, 1709.043, 2278.191), stdev = 322.018
+  CI (99.9%): [469.065, 2949.020] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51904:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.HashMapCycleTest.keySet
+
+# Run progress: 50.00% complete, ETA 00:00:23
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: 1701.085 ns/op
+# Warmup Iteration   2: 2181.023 ns/op
+Iteration   1: 2111.061 ns/op
+Iteration   2: 1640.077 ns/op
+Iteration   3: 1767.217 ns/op
+Iteration   4: 2247.839 ns/op
+Iteration   5: 1684.441 ns/op
+
+
+Result "org.example.HashMapCycleTest.keySet":
+  1890.127 ±(99.9%) 1048.741 ns/op [Average]
+  (min, avg, max) = (1640.077, 1890.127, 2247.839), stdev = 272.355
+  CI (99.9%): [841.386, 2938.868] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51904:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.HashMapCycleTest.lambda
+
+# Run progress: 66.67% complete, ETA 00:00:15
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: 744.109 ns/op
+# Warmup Iteration   2: 613.544 ns/op
+Iteration   1: 833.052 ns/op
+Iteration   2: 927.171 ns/op
+Iteration   3: 923.218 ns/op
+Iteration   4: 795.141 ns/op
+Iteration   5: 683.298 ns/op
+
+
+Result "org.example.HashMapCycleTest.lambda":
+  832.376 ±(99.9%) 389.132 ns/op [Average]
+  (min, avg, max) = (683.298, 832.376, 927.171), stdev = 101.056
+  CI (99.9%): [443.244, 1221.508] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 19.0.1, OpenJDK 64-Bit Server VM, 19.0.1+10-jvmci-22.3-b08
+# VM invoker: /Library/Java/JavaVirtualMachines/graalvm-ce-java19-22.3.0/Contents/Home/bin/java
+# VM options: -XX:ThreadPriorityPolicy=1 -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCIProduct -XX:JVMCIThreadsPerNativeLibraryRuntime=1 -XX:-UnlockExperimentalVMOptions -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51904:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.HashMapCycleTest.streamApi
+
+# Run progress: 83.33% complete, ETA 00:00:07
+# Fork: 1 of 1
+OpenJDK 64-Bit Server VM warning: -XX:ThreadPriorityPolicy=1 may require system level permission, e.g., being the root user. If the necessary permission is not possessed, changes to priority will be silently ignored.
+# Warmup Iteration   1: 1249.514 ns/op
+# Warmup Iteration   2: 567.047 ns/op
+Iteration   1: 577.302 ns/op
+Iteration   2: 636.389 ns/op
+Iteration   3: 597.646 ns/op
+Iteration   4: 634.111 ns/op
+Iteration   5: 635.712 ns/op
+
+
+Result "org.example.HashMapCycleTest.streamApi":
+  616.232 ±(99.9%) 104.862 ns/op [Average]
+  (min, avg, max) = (577.302, 616.232, 636.389), stdev = 27.232
+  CI (99.9%): [511.370, 721.094] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:47
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                         Mode  Cnt     Score      Error  Units
+HashMapCycleTest.entrySet         avgt    5  1374.121 ±  737.952  ns/op
+HashMapCycleTest.forEachEntrySet  avgt    5  1362.612 ±  694.815  ns/op
+HashMapCycleTest.forEachKeySet    avgt    5  1709.043 ± 1239.978  ns/op
+HashMapCycleTest.keySet           avgt    5  1890.127 ± 1048.741  ns/op
+HashMapCycleTest.lambda           avgt    5   832.376 ±  389.132  ns/op
+HashMapCycleTest.streamApi        avgt    5   616.232 ±  104.862  ns/op

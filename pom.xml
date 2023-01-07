@@ -12,6 +12,7 @@
     <modules>
         <module>proxy</module>
         <module>spi</module>
+        <module>collection</module>
 
     </modules>
 

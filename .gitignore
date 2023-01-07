@@ -3,3 +3,7 @@
 **/target
 target
 .idea
+.idea/**
+.DS_Store
+**/.DS_Store
+spi/service-provider/.DS_Store
