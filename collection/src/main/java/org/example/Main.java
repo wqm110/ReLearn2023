@@ -8,5 +8,7 @@ import org.openjdk.jmh.runner.RunnerException;
 public class Main {
     public static void main(String[] args) throws RunnerException {
         HashMapCycleTest.main(args);
+        String str = "";
+        str.contains("a");
     }
 }

@@ -36,7 +36,7 @@ public class HashMapCycleTest {
                 // 要导入的测试类
                 .include(HashMapCycleTest.class.getSimpleName())
                 // 输出测试结果的文件
-                .output("/Users/wqm/java/JavaFuXi/javaLearnT/collection/log/jmh-map" + now + ".log")
+//                .output("/Users/wqm/java/JavaFuXi/javaLearnT/collection/log/jmh-map" + now + ".log")
                 .build();
         // 执行测试
         new Runner(opt).run();
