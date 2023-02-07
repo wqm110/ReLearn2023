@@ -5,7 +5,6 @@ import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
-import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
 import java.util.HashMap;
@@ -13,8 +12,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import static javax.swing.UIManager.put;
-
+/**
+ * @author wangqingao
+ */
 @BenchmarkMode(Mode.AverageTime) // 测试完成时间
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @Warmup(iterations = 2, time = 1, timeUnit = TimeUnit.SECONDS) // 预热 2 轮，每次 1s
