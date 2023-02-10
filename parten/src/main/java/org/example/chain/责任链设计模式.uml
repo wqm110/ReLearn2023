@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.example.chain.FoodHandleChain</OriginalElement>
+  <nodes>
+    <node x="-117.0" y="290.0">org.example.chain.FoodHandleChainStep1</node>
+    <node x="173.0" y="-14.0">org.example.chain.IHandleChain</node>
+    <node x="170.29166666666663" y="418.0">org.example.chain.Test</node>
+    <node x="136.0" y="290.0">org.example.chain.FoodHandleChainStep2</node>
+    <node x="391.0" y="290.0">org.example.chain.FoodHandleChainStep3</node>
+    <node x="158.5" y="114.0">org.example.chain.FoodHandleChain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.chain.FoodHandleChainStep1" target="org.example.chain.FoodHandleChain" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="-0.5" y="265.0" />
+      <point x="253.5" y="265.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="org.example.chain.Test" target="org.example.chain.FoodHandleChainStep3" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="253.29166666666663" y="393.0" />
+      <point x="509.0" y="393.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="org.example.chain.FoodHandleChain" target="org.example.chain.IHandleChain" relationship="REALIZATION">
+      <point x="47.5" y="-63.0" />
+      <point x="301.0" y="89.0" />
+      <point x="293.75" y="89.0" />
+      <point x="40.25" y="39.0" />
+    </edge>
+    <edge source="org.example.chain.FoodHandleChainStep3" target="org.example.chain.FoodHandleChain" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="509.0" y="265.0" />
+      <point x="253.5" y="265.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="org.example.chain.FoodHandleChainStep2" target="org.example.chain.FoodHandleChain" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="63.0" />
+    </edge>
+    <edge source="org.example.chain.FoodHandleChain" target="org.example.chain.IHandleChain" relationship="TO_ONE">
+      <point x="-47.5" y="-63.0" />
+      <point x="206.0" y="89.0" />
+      <point x="213.25" y="89.0" />
+      <point x="-40.25" y="39.0" />
+    </edge>
+    <edge source="org.example.chain.Test" target="org.example.chain.FoodHandleChainStep2" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="org.example.chain.Test" target="org.example.chain.FoodHandleChainStep1" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="253.29166666666663" y="393.0" />
+      <point x="-0.5" y="393.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.1905660377358491" showDependencies="true" x="264.99999999999994" y="250.99999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
