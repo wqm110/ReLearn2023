@@ -9,19 +9,12 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>thread</artifactId>
+    <artifactId>parten</artifactId>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-        </dependency>
-    </dependencies>
 
 </project>

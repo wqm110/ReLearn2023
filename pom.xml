@@ -22,8 +22,10 @@
         <module>proxy</module>
         <module>spi</module>
         <module>collection</module>
-        <module>StarterTest</module>
-        <module>starter</module>
+<!--        <module>StarterTest</module>-->
+<!--        <module>starter</module>-->
+        <module>dubbo</module>
+        <module>parten</module>
     </modules>
 
     <properties>
