@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.example.factory.fac.LenoveComputer</OriginalElement>
+  <nodes>
+    <node x="-80.75" y="53.0">org.example.factory.pro.IPhoneFactory</node>
+    <node x="-281.5" y="322.0">org.example.factory.fac.LenoveComputer</node>
+    <node x="-656.5" y="44.0">org.example.factory.pro.IComputerFactory</node>
+    <node x="-106.75" y="120.0">org.example.factory.pro.HeNanIphoneFactory</node>
+    <node x="-606.0" y="-14.0">org.example.factory.pro.IFactory</node>
+    <node x="-492.5" y="274.0">org.example.factory.Test</node>
+    <node x="-478.5" y="216.0">org.example.factory.fac.IComputer</node>
+    <node x="-317.5" y="216.0">org.example.factory.fac.IPhone</node>
+    <node x="-296.75" y="120.0">org.example.factory.pro.BeijingFactory</node>
+    <node x="-163.0" y="274.0">org.example.factory.fac.HpComputer</node>
+    <node x="-441.75" y="120.0">org.example.factory.fac.IProduct</node>
+    <node x="-671.0" y="168.0">org.example.factory.pro.NanjingComputerFactory</node>
+    <node x="-473.5" y="331.0">org.example.factory.fac.AcerComputer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.factory.pro.HeNanIphoneFactory" target="org.example.factory.pro.IPhoneFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.fac.IComputer" target="org.example.factory.fac.IProduct" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-28.75" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.pro.BeijingFactory" target="org.example.factory.pro.IComputerFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-216.75" y="110.0" />
+      <point x="-549.5" y="110.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="org.example.factory.pro.NanjingComputerFactory" target="org.example.factory.pro.IComputerFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="org.example.factory.fac.LenoveComputer" target="org.example.factory.fac.IComputer" relationship="REALIZATION">
+      <point x="0.0" y="-23.0" />
+      <point x="-178.0" y="264.0" />
+      <point x="-413.0" y="264.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.pro.IComputerFactory" target="org.example.factory.pro.IFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.fac.AcerComputer" target="org.example.factory.fac.IComputer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-392.5" y="264.0" />
+      <point x="-413.0" y="264.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.fac.IPhone" target="org.example.factory.fac.IProduct" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-266.0" y="172.0" />
+      <point x="-355.5" y="172.0" />
+      <point x="28.75" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.pro.IPhoneFactory" target="org.example.factory.pro.IFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.25" y="34.0" />
+      <point x="-549.5" y="34.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.example.factory.fac.HpComputer" target="org.example.factory.fac.IComputer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-88.5" y="264.0" />
+      <point x="-413.0" y="264.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.5" showDependencies="false" x="-271.50000000000006" y="187.0" />
+  <SelectedNodes>
+    <node>org.example.factory.Test</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
