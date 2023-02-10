@@ -25,9 +25,10 @@ public abstract class FoodHandleChain implements IHandleChain {
         return this;
     }
 
-    public void handleWithNext() {
+    public IResource handleWithNext(IResource resource) {
         if (null != getNext()) {
-            getNext().handle();
+            return getNext().handle(resource);
         }
+        return resource;
     }
 }

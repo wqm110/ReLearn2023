@@ -10,9 +10,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class FoodHandleChainStep3 extends FoodHandleChain {
     @Override
-    public void handle() {
+    public IResource handle(IResource resource) {
         log.info("第三步=>改刀");
         log.debug(".........");
-        handleWithNext();
+        resource.doChain();
+        return handleWithNext(resource.setName(resource.getName()+"_three_"));
     }
 }

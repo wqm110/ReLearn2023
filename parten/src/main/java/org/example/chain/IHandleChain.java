@@ -24,5 +24,5 @@ public interface IHandleChain {
     /**
      * 具体处理过程
      */
-    void handle();
+    IResource handle(IResource resource);
 }
