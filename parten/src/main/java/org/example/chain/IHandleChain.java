@@ -15,8 +15,11 @@ public interface IHandleChain {
 
     /**
      * 设置下一处理步骤
+     *
+     * @param handler 下一步处理
+     * @return IHandleChain
      */
-    void setNext(IHandleChain handler);
+    IHandleChain setNext(IHandleChain handler);
 
     /**
      * 具体处理过程
