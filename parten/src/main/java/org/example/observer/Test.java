@@ -11,7 +11,6 @@ public class Test {
         Observer1 ob = new Observer1();
         event.addObserver(ob);
 
-
         EventPublishTool.publish(event);
     }
 }

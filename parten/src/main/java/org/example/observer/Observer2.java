@@ -3,6 +3,8 @@ package org.example.observer;
 import lombok.extern.slf4j.Slf4j;
 
 /**
+ * 观察者2
+ *
  * @author wangqingao
  */
 @Slf4j
