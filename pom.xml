@@ -24,8 +24,8 @@
         <module>collection</module>
 <!--        <module>StarterTest</module>-->
 <!--        <module>starter</module>-->
-        <module>dubbo</module>
-        <module>parten</module>
+        <module>springTest</module>
+        <module>sharding-sphere</module>
     </modules>
 
     <properties>
