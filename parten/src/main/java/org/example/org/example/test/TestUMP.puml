@@ -1,0 +1,16 @@
+@startuml
+class A{
+private String name;
+private int age;
+}
+class Grade{
+private int grade;
+}
+class B{
+private Grade grade;
+}
+
+A <|-- B
+B  <> Grade
+
+@enduml
