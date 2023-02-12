@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * @author wqm
  */
 @Slf4j
-public class BeijingPaperPizza extends Pizza implements IPepger, Beijing {
+public class BeijingPapperPizza extends Pizza implements IPepper, Beijing {
 
     @Override
     public String getType() {

@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * @author wqm
  */
 @Slf4j
-public class LandonPaperPizza extends Pizza implements IPepger, Landon {
+public class LandonPaperPizza extends Pizza implements IPepper, Landon {
 
     @Override
     IFood getFood() {

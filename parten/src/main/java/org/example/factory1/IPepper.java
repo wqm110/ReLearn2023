@@ -1,6 +1,9 @@
 package org.example.factory1;
 
-public interface IPepger extends IFood {
+/**
+ * @author wqm
+ */
+public interface IPepper extends IFood {
     String TYPE = "胡椒";
 
     @Override

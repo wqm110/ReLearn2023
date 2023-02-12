@@ -5,6 +5,7 @@ package org.example.factory1;
  */
 public interface ILocation {
     /**
+     * 获取位置
      *
      * @return String
      */
